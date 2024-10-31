@@ -75,11 +75,24 @@
   }
 }
     </script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-white">
-    <div class="center-screen">
-        <img draggable="false" class="h-9 w-auto mr-2" src="./logo/figure.svg">
-        <h1>Cliptra Static Files Repository</h1>
+    <div class="flex justify-center items-center min-h-screen">
+        <div class="p-8 text-center">
+          <div class="flex items-center space-x-2">
+            <img draggable="false" class="h-24 w-auto mr-2" src="./logo/figure.svg">
+            <h1 class="text-5xl">Cliptra Static Files</h1>
+          </div>
+
+          <button onclick="window.location.href = ('https://github.com/cliptrateam/static-files')" class="bg-black text-white rounded-xl px-2.5 py-1.5">
+              <i class="fa-brands fa-github"></i>&nbsp;View on GitHub
+          </button>
+          <button onclick="window.location.href = ('https://cliptra.com/')" class="bg-black text-white rounded-xl px-2.5 py-1.5">
+              Homepage
+          </button>
+        </div>
     </div>
 </body>
 </html>
